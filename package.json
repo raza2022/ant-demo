@@ -32,6 +32,7 @@
   ],
   "scripts": {
     "build": "atool-build",
+    "preinstall": "npm install antd-init -g",
     "lint": "eslint --ext .js,.jsx src/",
     "start": "dora --plugins webpack",
     "test": "atool-test-mocha ./**/__tests__/*-test.js"
